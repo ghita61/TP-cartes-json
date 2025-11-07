@@ -1,0 +1,100 @@
+[
+  {
+    "id": "1",
+    "title": "React Native",
+    "description": "Learn to create cross-platform mobile apps.",
+    "image": "https://reactnative.dev/img/tiny_logo.png",
+    "url": "https://reactnative.dev/"
+  },
+  {
+    "id": "2",
+    "title": "Expo",
+    "description": "Get started quickly without Android Studio or Xcode.",
+    "image": "https://avatars.githubusercontent.com/u/12504344?s=200&v=4",
+    "url": "https://expo.dev/"
+  },
+  {
+    "id": "3",
+    "title": "Flexbox",
+    "description": "Easily layout your views.",
+    "image": "https://logo.svgcdn.com/devicon/css3-original.png",
+    "url": "https://reactnative.dev/docs/flexbox"
+  },
+  {
+    "id": "4",
+    "title": "JavaScript",
+    "description": "Learn the language of the web.",
+    "image": "https://logo.svgcdn.com/devicon/javascript-original.png",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+  },
+  {
+    "id": "5",
+    "title": "TypeScript",
+    "description": "Typed JavaScript for safer code.",
+    "image": "https://logo.svgcdn.com/devicon/typescript-original.png",
+    "url": "https://www.typescriptlang.org/"
+  },
+  {
+    "id": "6",
+    "title": "Node.js",
+    "description": "Run JavaScript on the server.",
+    "image": "https://logo.svgcdn.com/devicon/nodejs-original.png",
+    "url": "https://nodejs.org/"
+  },
+  {
+    "id": "7",
+    "title": "Git",
+    "description": "Version control your projects.",
+    "image": "https://logo.svgcdn.com/devicon/git-original.png",
+    "url": "https://git-scm.com/"
+  },
+  {
+    "id": "8",
+    "title": "VS Code",
+    "description": "A lightweight, powerful code editor.",
+    "image": "https://logo.svgcdn.com/devicon/vscode-original.png",
+    "url": "https://code.visualstudio.com/"
+  },
+  {
+    "id": "9",
+    "title": "HTML5",
+    "description": "The standard markup language for web pages.",
+    "image": "https://logo.svgcdn.com/devicon/html5-original.png",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+  },
+  {
+    "id": "10",
+    "title": "CSS3",
+    "description": "Style your web pages beautifully.",
+    "image": "https://logo.svgcdn.com/devicon/css3-original.png",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+  },
+  {
+    "id": "11",
+    "title": "Python",
+    "description": "A versatile programming language.",
+    "image": "https://logo.svgcdn.com/devicon/python-original.png",
+    "url": "https://www.python.org/"
+  },
+  {
+    "id": "12",
+    "title": "MongoDB",
+    "description": "NoSQL database for modern apps.",
+    "image": "https://logo.svgcdn.com/devicon/mongodb-original.png",
+    "url": "https://www.mongodb.com/"
+  },
+  {
+    "id": "13",
+    "title": "Firebase",
+    "description": "Backend as a service for mobile apps.",
+    "image": "https://logo.svgcdn.com/devicon/firebase-original.png",
+    "url": "https://firebase.google.com/"
+  },
+  {
+    "id": "14",
+    "title": "GraphQL",
+    "description": "A query language for your API.",
+    "image": "https://logo.svgcdn.com/d/graphql-plain-wordmark.png",
+    "url": "https://graphql.org/"
+  }
+]
