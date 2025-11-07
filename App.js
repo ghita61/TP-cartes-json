@@ -3,7 +3,7 @@ import { View, StatusBar, StyleSheet, Switch, Text } from 'react-native';
 import { CardList } from './components/CardList';
 
 export default function App() {
-  const [isDark, setIsDark] = useState(false); // manual control
+  const [isDark, setIsDark] = useState(false); 
 
   return (
     <View style={[styles.screen, { backgroundColor: isDark ? '#121212' : '#f6f7fb' }]}>
