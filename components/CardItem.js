@@ -53,7 +53,7 @@ const handleLongPressLike = () => {
             <TouchableOpacity
                 onPress={handleLike}
                 onLongPress={handleLongPressLike}
-                delayLongPress={300}   // makes burst feel instant
+                delayLongPress={300}   
                 activeOpacity={0.7}
                 style={{ marginRight: 10 }}
             >
