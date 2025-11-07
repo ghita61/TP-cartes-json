@@ -1,4 +1,3 @@
-// components/CardList.js
 import React, { useState, useRef, useEffect } from 'react';
 import {
   View,
@@ -11,10 +10,7 @@ import CardItem from './CardItem';
 import cards from '../data/cards.json';
 
 export function CardList({ isDark }) {
-  // ---------- 1. Refresh ----------
   const [refreshing, setRefreshing] = useState(false);
-
-  // ---------- 2. Staggered animation ----------
   const cardAnims = useRef(cards.map(() => new Animated.Value(0))).current;
 
   useEffect(() => {
@@ -30,7 +26,6 @@ export function CardList({ isDark }) {
     ).start();
   }, [cardAnims]);
 
-  // ---------- 3. Render each card ----------
   const renderItem = ({ item, index }) => {
     const animatedStyle = {
       opacity: cardAnims[index],
@@ -57,7 +52,6 @@ export function CardList({ isDark }) {
     );
   };
 
-  // ---------- 4. Pull-to-refresh ----------
   const onRefresh = () => {
     setRefreshing(true);
     setTimeout(() => setRefreshing(false), 1000);
